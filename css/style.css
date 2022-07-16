@@ -1,0 +1,119 @@
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.container {
+    max-width: 945px;
+    margin: 0 auto;
+    /* padding-left: 30px;
+    padding-right: 30px; для адаптива, нужно будет пошаманить с этим*/
+}
+
+.header_nav {
+    padding-top: 33px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul li a {
+    font-size: 22px;
+    line-height: 22px;
+    color: #828282;
+    text-decoration: none;
+}
+
+header ul li .main {
+    color: #070707;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 59px;
+    color: #070707;
+}
+
+.header_text {
+    padding-top: 40px;
+}
+
+.lang {
+    transform: rotate(-90deg);
+    padding-top: 30px;
+}
+
+header picture {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 104px;
+}
+
+.about_me {
+    background-color: #F6F6F6;
+}
+
+h2 {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    padding-top: 120px;
+}
+
+.about_me_text {
+    padding-top: 18px;
+    padding-bottom: 107px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 486px;
+    height: 218px;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+
+.skills_p {
+    padding-top: 69px;
+    padding-bottom: 83px;
+}
+
+.skills_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills_flex_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills_flex_card_text {
+    padding-top: 24px;
+    padding-bottom: 40px;
+}
+
+.skills_flex_img {
+    background: radial-gradient(75.99% 75.64% at 32.94% 22.44%, rgba(52, 54, 78, 0.98) 0%, #0C0824 100%);
+}
+
+.skills_flex_img:last-child {
+    background: radial-gradient(75.99% 75.64% at 32.94% 22.44%, rgba(52, 54, 78, 0.98) 0%, #F6F6F6 100%);
+}
